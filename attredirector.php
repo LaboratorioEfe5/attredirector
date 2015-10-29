@@ -43,10 +43,7 @@ class attredirector extends Module
 		$tiendaActual = Configuration::get('att_tiendaLlegada');
     
 		$array_gruposPermitidos = explode(',', Configuration::get('att_terminosAceptados'));
-		/*array(
-										'pepitodelospalotes',
-										'asociaciondelmejillontigre'
-										);*/
+
 		$urlSegment = explode('/', $_SERVER['REQUEST_URI']);
 		
 		if(in_array($urlSegment[1], $array_gruposPermitidos)){
