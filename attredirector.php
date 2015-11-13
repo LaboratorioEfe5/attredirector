@@ -17,7 +17,7 @@ class attredirector extends Module
 	{
 		$this->name = 'attredirector';
 		$this->tab = 'front_office_features';
-		$this->version = 0.1.1;
+		$this->version = 0.1;
 		$this->author = 'oldlastman Attendants';
 		$this->need_instance = 0;
 		$this->module_key = "";
